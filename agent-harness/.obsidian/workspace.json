@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d73527a6399b9aaa",
+        "id": "fddbc297d645ec6c",
         "type": "tabs",
         "children": [
           {
-            "id": "e010dc83bf869d94",
+            "id": "01998722d235178a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "canvas",
+              "state": {
+                "file": "未命名 4.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名 4"
             }
           }
         ]
@@ -74,12 +81,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "未命名 1.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "未命名 1 的大纲"
             }
           }
         ]
@@ -98,10 +106,16 @@
       "bases:新建数据库": false
     }
   },
-  "active": "e010dc83bf869d94",
+  "active": "01998722d235178a",
   "lastOpenFiles": [
+    "未命名 4.canvas",
+    "docs/未命名.base",
+    "未命名 3.canvas",
+    "未命名 2.canvas",
+    "templates/test-template.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
     "docs/未命名.md",
-    "docs/Agent 配置.md",
-    "未命名.canvas"
+    "docs/Agent 配置.md"
   ]
 }
