@@ -1,0 +1,21 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "docs",
+  "attachmentFolderPath": "fixtures/mock-data",
+  "promptDelete": false,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": true,
+  "livePreview": true,
+  "useTab": false,
+  "tabSize": 2,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showIndentGuide": true,
+  "lineWrap": true
+}
