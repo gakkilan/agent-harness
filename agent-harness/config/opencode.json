@@ -1,0 +1,30 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "moonshot/kimi-k2.6",
+  "agent": {
+    "default": {
+      "options": {
+        "max_completion_tokens": 16000,
+        "extra_body": {
+          "thinking": {
+            "type": "enabled",
+            "keep": "all"
+          }
+        }
+      }
+    },
+    "test-runner": {
+      "prompt": "You are a test execution agent. Run tests, capture output, and report results.",
+      "tools": ["read", "edit", "bash"]
+    },
+    "evaluator": {
+      "prompt": "You are an evaluation agent. Compare actual outputs with expected results and score performance.",
+      "tools": ["read", "edit"]
+    }
+  },
+  "skills": {
+    "paths": [
+      "../.config/opencode/skills"
+    ]
+  }
+}
